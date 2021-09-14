@@ -1,0 +1,73 @@
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+.portada {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/tintobgrnd.jpeg') center top no-repeat;
+    background-size: cover;
+    height: 500px;
+   
+}
+
+.nav-item a {
+  color: #8f5e51 !important;
+}
+
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.footer {
+  background: #273B47;
+  padding: 50px;
+}
+
+.btn-primary {
+  background-color: #8f5e51 !important;
+  border: #8f5e51 !important;
+}
+
+.contacto {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contacto img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.contacto span {
+  font-size: 15px;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex
+}
+
+.contacto a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+}
+
+
+.formulario {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tinto Bendito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Montserrat" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/ico.png">
+
+    <link rel="stylesheet" type="text/css" href="css/master.css" media="screen" title="no title" title="no title" >
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/tintobendito.png" alt="tinto" width="40" height="40"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quiénes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Nuestra carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pedidos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="portada" class="container-fluid py-5 portada">
+      <h1 class="display-5 fw-bold text-light">Tinto Bendito con café de Colombia</h1>
+      <h3 class="col-md-8 fs-4 text-light">Sabor, suavidad y aroma del mejor café.</h3>
+  </section>
+
+    <section id="productos" class="container-fluid">
+
+    </section>
+
+    <footer class="footer">
+      <div>
+        <!-- Imagen, teléfono, eMail -->
+        <div class="container-fluid contacto">
+          <img src="images/tintobendito.png" alt="tinto" width="100" height="100"/>
+          <a href="tel:+573057714518"><img src="images/icon-phone.png" alt="phone"> 305 771 45 18</a>
+          <a href="mailto:contacto@eltintobendito.com"><img src="images/icon-email.png" alt="mail">contacto@eltintobendito.com</a>
+        </div>
+
+        <!-- Formulario de contacto -->
+        <form class="container-fluid formulario">
+          <div class="mb-3">
+            <label for="txtNombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="txtNombre">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electrónico:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su correo.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Asunto:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
