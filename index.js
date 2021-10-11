@@ -17,6 +17,7 @@ const btnClose = getElement('#btnClose');
 const modNom = getElement('#mod-nom');
 const modMail = getElement('#mod-mail');
 const modAsun = getElement('#mod-asun');
+const txtFechaMod = getElement('#txtFechaMod');
 const winModal = document.getElementById('modal')
 
 
@@ -30,6 +31,7 @@ btnClose.addEventListener('click', () => {
 btnEnviar.addEventListener('click', (ev)=> {
     ev.preventDefault();
     winModal.classList.toggle('visible');
+    txtFechaMod.textContent = fechaActual;
     modNom.textContent = txtNombre.value.toUpperCase();
     modMail.textContent = txtEmail.value;
     modAsun.textContent = txtAsunto.value;
